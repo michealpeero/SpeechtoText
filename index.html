@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>
+         Speech to Text Web App
+    </h1>
+    <div class="drop">
+        <label for="language">Choose A language</label>
+<select name="Speech" id="dropdown">
+    <option value="en-US" class="eng">English</option>
+    <option value="ur-PK">Urdu</option>
+</select>
+    </div>
+    <div class="textAreaContainer">
+        <textarea id="textArea" name="containerText" rows="10" cols="50"></textarea>
+    </div>
+    <div class="button">
+        <button class="start">Start</button>
+        <button class="end">End</button>
+    </div>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>

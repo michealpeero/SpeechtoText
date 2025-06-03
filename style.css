@@ -1,0 +1,85 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f5f7fa;
+  color: #333;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 30px;
+  color: #2c3e50;
+}
+
+.drop {
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+select {
+  padding: 8px 12px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.textAreaContainer {
+  margin: 20px 0;
+}
+
+textarea {
+  width: 90%;
+  max-width: 600px;
+  height: 200px;
+  padding: 15px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  resize: none;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0,0,0,0.05);
+}
+
+.button {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.start {
+  background-color: #27ae60;
+  color: white;
+}
+
+.start:hover {
+  background-color: #219150;
+}
+
+.end {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.end:hover {
+  background-color: #c0392b;
+}
